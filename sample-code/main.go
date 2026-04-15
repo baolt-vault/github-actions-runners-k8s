@@ -16,6 +16,7 @@ func main() {
 		"Starting background jobs...",
 		"System ready!",
 	}
+	
 
 	for i, msg := range messages {
 		color.Green("[%d/%d] %s", i+1, len(messages), msg)
