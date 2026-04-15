@@ -21,7 +21,6 @@ func main() {
 		color.Green("[%d/%d] %s", i+1, len(messages), msg)
 		time.Sleep(700 * time.Millisecond)
 	}
-
 	color.Yellow("\nAll systems operational!")
 	fmt.Println("Enjoy your day 🚀")
 }
