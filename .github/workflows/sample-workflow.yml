@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: blt-runner
+    runs-on: arc-runners-set
     strategy:
       matrix:
         go: [ '1.21', '1.22', '1.23' ]
