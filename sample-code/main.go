@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	color.Cyan("Welcome to the Go demo!")
+	color.Cyan("Welcome to the Go demo 2!")
 
 	messages := []string{
 		"Initializing system...",
